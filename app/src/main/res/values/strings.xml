@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Hotel Booking</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="description_kamar_1">Single room atau single studio room adalah jenis kamar hotel yang umum dimiliki setiap hotel. Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi.
+        Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar. Single room juga biasanya lebih banyak diminati oleh para traveller yang bepergian sendirian, karena harganya yang lebih murah dibandingkan dengan jenis kamar hotel lainnya.</string>
+
+
+    <string name="description_kamar_2">Single room atau single studio room adalah jenis kamar hotel yang umum dimiliki setiap hotel. Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi.
+        Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar. Single room juga biasanya lebih banyak diminati oleh para traveller yang bepergian sendirian, karena harganya yang lebih murah dibandingkan dengan jenis kamar hotel lainnya.</string>
+
+
+    <string name="description_kamar_3">Single room atau single studio room adalah jenis kamar hotel yang umum dimiliki setiap hotel. Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi.
+        Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar. Single room juga biasanya lebih banyak diminati oleh para traveller yang bepergian sendirian, karena harganya yang lebih murah dibandingkan dengan jenis kamar hotel lainnya.</string>
+
+
+    <string name="description_kamar_4">Single room atau single studio room adalah jenis kamar hotel yang umum dimiliki setiap hotel. Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi.
+        Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar. Single room juga biasanya lebih banyak diminati oleh para traveller yang bepergian sendirian, karena harganya yang lebih murah dibandingkan dengan jenis kamar hotel lainnya.</string>
+
+
+    <string name="description_kamar_5">Single room atau single studio room adalah jenis kamar hotel yang umum dimiliki setiap hotel. Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi.
+        Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar. Single room juga biasanya lebih banyak diminati oleh para traveller yang bepergian sendirian, karena harganya yang lebih murah dibandingkan dengan jenis kamar hotel lainnya.</string>
+
+</resources>

@@ -16,6 +16,7 @@
         tools:ignore="UselessParent">
 
         <ImageView
+            android:src="@drawable/logo"
             android:layout_marginBottom="25dp"
             android:layout_width="wrap_content"
             android:layout_centerHorizontal="true"
@@ -80,7 +81,6 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSubmit"
-            android:visibility="visible"
             android:layout_marginTop="10dp"
             android:textColor="@android:color/white"
             android:text="Masuk"

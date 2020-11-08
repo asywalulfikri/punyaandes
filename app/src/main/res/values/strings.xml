@@ -10,6 +10,15 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
+    <string name="error_message_name">Username tidak boleh kosong</string>
+    <string name="error_message_email">Email tidak valid</string>
+    <string name="error_message_password">Kata sandi minimal 6 Karakter</string>
+    <string name="error_message_phpne">Nomot telpon minimal 10 karakter</string>
+    <string name="registered_success">Pendaftaran Berhasil</string>
+    <string name="error_password_match">Kata sandi tidak sama</string>
+    <string name="error_email_exists">Email telah terdaftar</string>
+    <string name="error_valid_email_password">Email password tidak valid</string>
+
 
     <string name="description_kamar_1">Single room atau single studio room adalah jenis kamar hotel yang umum dimiliki setiap hotel. Single room biasanya hanya terdiri dari satu ruangan yang berisi hanya satu tempat tidur, sofa, dan kamar mandi.
         Jenis kamar hotel single room cocok satu orang saja karena memang fasilitas dan kapasitas yang tidak besar. Single room juga biasanya lebih banyak diminati oleh para traveller yang bepergian sendirian, karena harganya yang lebih murah dibandingkan dengan jenis kamar hotel lainnya.</string>

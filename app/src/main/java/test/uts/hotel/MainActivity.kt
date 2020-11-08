@@ -1,9 +1,12 @@
 package test.uts.hotel
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.bottomnavigation.LabelVisibilityMode
@@ -12,8 +15,10 @@ import test.uts.hotel.fragment.HomeFragment
 import test.uts.hotel.fragment.ProfileFragment
 import test.uts.hotel.helper.ViewPagerAdapter
 
+
 class MainActivity : AppCompatActivity() {
 
+    var doubleBackToExitPressedOnce = false
     internal var prevMenuItem:MenuItem? = null
 
 
@@ -78,6 +83,22 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            val intent = Intent(this,LoginActivity::class.java)
+            startActivity(intent)
+            return
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show()
+
+        Handler().postDelayed(Runnable {
+            doubleBackToExitPressedOnce = false
+        }, 2000)
+
+    }
 
 
     private fun setupViewPager(viewPager:ViewPager) {

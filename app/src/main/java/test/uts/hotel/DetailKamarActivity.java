@@ -21,7 +21,7 @@ public class DetailKamarActivity extends AppCompatActivity {
     ImageView imageView;
     MaterialButton btnSubmit;
 
-    String title,subtitle, description;
+    String title,subtitle, description,price;
     int icon ;
 
     @Override
@@ -32,6 +32,7 @@ public class DetailKamarActivity extends AppCompatActivity {
         title = getIntent().getStringExtra("title");
         subtitle = getIntent().getStringExtra("subtitle");
         description = getIntent().getStringExtra("description");
+        price = getIntent().getStringExtra("price");
         icon = getIntent().getIntExtra("icon",0);
 
         titleText = findViewById(R.id.title);
@@ -48,7 +49,12 @@ public class DetailKamarActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DetailKamarActivity.this, ReceiptActivity.class);
+                Intent intent = new Intent(DetailKamarActivity.this, DetailOrderActivity.class);
+                intent.putExtra("title",title);
+                intent.putExtra("subtitle",subtitle);
+                intent.putExtra("description",description);
+                intent.putExtra("icon",icon);
+                intent.putExtra("price",price);
                 startActivity(intent);
             }
         });

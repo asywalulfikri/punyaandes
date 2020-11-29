@@ -23,6 +23,12 @@ public class ListkamarActivity extends AppCompatActivity {
             "Rp.600.000 / Malam",
     };
 
+    String[] price ={
+            "Rp.500.000","Rp.250.000",
+            "RP.300.000","Rp.120.000",
+            "Rp.600.000",
+    };
+
 
     Integer[] imgid={
             R.drawable.kamar_1,R.drawable.kamar_2,
@@ -44,7 +50,7 @@ public class ListkamarActivity extends AppCompatActivity {
         list= findViewById(R.id.recyclerView);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         list.setLayoutManager(linearLayoutManager);
-        MyRecyclerViewAdapter adapter=new MyRecyclerViewAdapter(this, maintitle, subtitle,imgid,description);
+        MyRecyclerViewAdapter adapter=new MyRecyclerViewAdapter(this, maintitle, subtitle,imgid,description,price);
         list.setAdapter(adapter);
 
 

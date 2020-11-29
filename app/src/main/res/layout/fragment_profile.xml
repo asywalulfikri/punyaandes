@@ -104,7 +104,6 @@
                                 android:textSize="12sp"
                                 android:id="@+id/et_email"
                                 android:maxLines="1"
-                                android:text="ades@gmail.com"
                                 android:fontFamily="sans-serif-light"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>

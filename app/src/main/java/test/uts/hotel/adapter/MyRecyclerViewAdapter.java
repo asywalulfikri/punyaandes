@@ -19,19 +19,21 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     private String[] maintitle;
     private String[] subtitle;
     private String[] description;
+    private String[] price;
     private Integer[] imgid;
     private LayoutInflater mInflater;
     private ItemClickListener mClickListener;
     private Context context;
 
     // data is passed into the constructor
-    public MyRecyclerViewAdapter(Context context, String[] maintitle, String[] subtitle, Integer[] imgid,String[] description) {
+    public MyRecyclerViewAdapter(Context context, String[] maintitle, String[] subtitle, Integer[] imgid,String[] description,String[] price) {
         this.mInflater = LayoutInflater.from(context);
         this.context = context;
         this.maintitle = maintitle;
         this.subtitle = subtitle;
         this.imgid = imgid;
         this.description = description;
+        this.price = price;
     }
 
     // inflates the row layout from xml when needed
@@ -56,6 +58,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
                 intent.putExtra("subtitle",subtitle[position]);
                 intent.putExtra("description",description[position]);
                 intent.putExtra("icon",imgid[position]);
+                intent.putExtra("price",price[position]);
                 context.startActivity(intent);
             }
         });

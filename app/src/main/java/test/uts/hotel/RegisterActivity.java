@@ -28,7 +28,7 @@ import test.uts.hotel.helper.InputValidation;
 import test.uts.hotel.helper.PasswordView;
 
 
-public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
+public class RegisterActivity extends BaseActivity implements View.OnClickListener {
     private final AppCompatActivity activity = RegisterActivity.this;
     private CostumeEditText etUserName;
     private CostumeEditText etEmail;
@@ -67,6 +67,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         nestedScrollView = (NestedScrollView) findViewById(R.id.nestedScrollView);
         llProgressBar = findViewById(R.id.llProgressBar);
+        setToolbar(toolbar,"Daftar");
 
     }
     /**

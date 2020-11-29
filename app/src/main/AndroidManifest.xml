@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".LoginActivity"
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/AppThemeNoBar"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,17 +23,31 @@
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait"/>
 
+        <activity android:name=".LoginActivity"
+            android:theme="@style/AppThemeNoBar"
+            android:screenOrientation="portrait"/>
+
         <activity android:name=".RegisterActivity"
+            android:label="Daftar"
             android:theme="@style/AppThemeNoBar"
             android:screenOrientation="portrait"/>
 
         <activity android:name=".DetailKamarActivity"
             android:screenOrientation="portrait"/>
 
-        <activity android:name=".ReceiptActivity"
+        <activity android:name=".DetailOrderActivity"
+            android:theme="@style/AppThemeNoBar"
             android:screenOrientation="portrait"/>
 
         <activity android:name=".ListkamarActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ListPaymentMethod"
+            android:theme="@style/AppThemeNoBar"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SuccessPaymentActivity"
+            android:theme="@style/AppThemeNoBar"
             android:screenOrientation="portrait"/>
     </application>
 
